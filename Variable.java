@@ -46,6 +46,23 @@ class Variable {
         boolean old = true;
         char c = 'z';  //No double quotes , only single quotes , only one character is allowed
 
+        //literals
+
+        int mum2 = 100_000_000;
+
+        System.out.println(mum2);
+
+        int mumj =  0b110;
+
+        System.out.println(mumj);
+
+        double mumj2 = 30002;
+
+        System.out.println(mumj2);
+
+        // conversion happens automatically
+        // byte -> short -> int -> long -> float -> double
+
 
 
     }
